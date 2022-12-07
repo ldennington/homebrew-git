@@ -8,7 +8,7 @@ cask 'git-credential-manager-core' do
   if Hardware::CPU.intel?
     sha256 'c04778bd2ad0e414b94b374877d734acb384dc45d6be9e0531e94b264cc00927'
   else
-    sha256 '63455a15cc24aa7d37c3a5aa3580bf14cef17fef37384a07f8c077e3e9258968'
+    sha256 'f5df1268ec355ead03f2b28b41e436260062ea4a5a57b609c56e2ba52bc4c20f'
   end
 
   url "https://github.com/ldennington/git-credential-manager/releases/download/v#{version.major_minor_patch}/gcm-osx-#{arch}-#{version.major_minor_patch}.pkg"
